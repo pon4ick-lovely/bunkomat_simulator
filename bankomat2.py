@@ -202,7 +202,7 @@ def card_in():
     
 # анимация высовывания карты
 def money_out():
-    global ind, after_id
+    global ind, after_id,date
     after_id = root.after(40,money_out)
     ind += 1
     date+="Снято "
